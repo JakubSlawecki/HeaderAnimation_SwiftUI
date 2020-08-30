@@ -14,7 +14,6 @@ struct ContentView: View {
     }
 }
 
-
 struct Home: View {
     var edges = UIApplication.shared.windows.first?.safeAreaInsets
     
@@ -109,7 +108,6 @@ struct Song {
     var songImage: String
     var songAlbum: String
 }
-
 
 var songs = [
     Song(name: "Jumpsuit", songImage: "album", songAlbum: "Trench"),
